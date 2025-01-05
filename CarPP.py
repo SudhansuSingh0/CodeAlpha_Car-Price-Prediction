@@ -8,7 +8,7 @@ from sklearn.metrics import mean_absolute_error, r2_score
 import seaborn as sns
 
 # Load the dataset
-file_path = 'C:/Users/Sudhansu Kumar Singh/Downloads/car_dataset/car data.csv'  # Replace with the correct path if needed
+file_path = 'cardata.csv'  # Replace with the correct path if needed
 car_data = pd.read_csv(file_path)
 
 # Data preprocessing
